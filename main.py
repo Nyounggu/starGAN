@@ -96,8 +96,8 @@ if __name__ == '__main__':
     parser.add_argument('--rafd_image_dir', type=str, default='data/RaFD/train')
     parser.add_argument('--log_dir', type=str, default='stargan/logs')
     parser.add_argument('--model_save_dir', type=str, default='stargan/models')
-    parser.add_argument('--sample_dir', type=str, default='stargan/samples')
-    parser.add_argument('--result_dir', type=str, default='stargan/results')
+    parser.add_argument('--sample_dir', type=str, default='/content/drive/MyDrive/CT-MRI_2way_converter/starGAN/stargan/stargan_custom/models')
+    parser.add_argument('--result_dir', type=str, default='/content/drive/MyDrive/CT-MRI_2way_converter/starGAN/stargan/stargan/samples')
 
     # Step size.
     parser.add_argument('--log_step', type=int, default=10)
